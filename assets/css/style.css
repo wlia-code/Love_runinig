@@ -244,6 +244,13 @@ footer{
         padding: 0;
     }
 
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
@@ -259,7 +266,7 @@ footer{
     #cover-text {
         left: 0;
     }
-    #club-ethos {
+    #club-ethos { 
         width:90%;
         height: 120px;
         margin: 0 auto;
@@ -275,6 +282,17 @@ footer{
     .left-about-heading p , .right-about-heading p{
         text-align: center;
         padding: 0 20px;
-        
+
+    }
+
+    #photos {
+        column-count: 3;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
     }
 }
